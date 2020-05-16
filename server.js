@@ -17,7 +17,6 @@ var User   = require('./app/models/user'); // get our mongoose model
 var Util = require('./app/services/UtilityService');
 var Userfitpoints   = require('./app/models/userfitpoints'); // get our mongoose model
 
-
 // =================================================================
 // configuration ===================================================
 // =================================================================
