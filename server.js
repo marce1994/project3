@@ -21,7 +21,7 @@ var Userfitpoints   = require('./app/models/userfitpoints'); // get our mongoose
 // =================================================================
 // configuration ===================================================
 // =================================================================
-var port = process.env.PORT || 3333; // used to create, sign, and verify tokens
+var port = process.env.PORT || 443; // used to create, sign, and verify tokens
 mongoose.connect(config.database, {
 	useMongoClient: true
 }); 
